@@ -33,7 +33,7 @@ function App() {
       <div className="ticks"></div>
 
       <section id="next-steps">
-        {/* <div id="docs">
+        <div id="docs"
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#documentation-icon"></use>
           </svg>
@@ -53,7 +53,7 @@ function App() {
               </a>
             </li>
           </ul>
-        </div> */}
+        </div>
         <div id="social">
           <svg className="icon" role="presentation" aria-hidden="true">
             <use href="/icons.svg#social-icon"></use>
