@@ -16,5 +16,10 @@ jobs:
           node-version: 24.19.0
           cache: npm
 
+      - name: Check Node and npm versions
+        run: |
+          node -v
+          npm -v
+
       - run: npm ci
       - run: npm run build
